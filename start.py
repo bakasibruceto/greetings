@@ -27,7 +27,7 @@ password = os.getenv("PASSWORD")
 # Initialize the WebDriver
 options = Options()
 options.add_argument("--headless")
-driver = webdriver.Chrome()
+driver = webdriver.Chrome(options)
 delay = WebDriverWait(driver, 10)
 
 # Log in to Messenger
