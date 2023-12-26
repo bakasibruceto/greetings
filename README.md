@@ -1,4 +1,4 @@
-# 🎉 Greetings
+# 🎉 greetings
 
 This project contains a Python script for automating and sending greetings to your friends and family on Messenger.
 
