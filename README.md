@@ -21,7 +21,7 @@ This project is created for **educational purposes only**. It is intended to dem
 Before running the script, you need to install the required packages. You can do this by running the following commands in your terminal:
 
 ```bash
-pip install selenium python-dotenv
+pip3 install selenium python-dotenv
 ```
 
 This will install the Selenium and python-dotenv packages.
