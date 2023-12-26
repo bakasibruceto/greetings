@@ -50,7 +50,7 @@ for person in persons:
         EC.visibility_of_element_located((By.CSS_SELECTOR, chat_box_css))
     )
     chat_box.click()
-    chat_box.send_keys(message[1])
+    chat_box.send_keys(message[0])
     chat_box.send_keys(Keys.RETURN)
     print("Message sent to " + str(name))
     time.sleep(1)
