@@ -1,0 +1,20 @@
+{
+    "messages": [
+      "Insert message here 1",
+      "Insert message here 2"
+    ],
+  
+    "persons": [
+      {
+        "id": "conversation_id",
+        "name": "friend_name_2",
+        "birth_date": "birth_date"
+      },
+      {
+        "id": "conversation_id",
+        "name": "friend_name_1",
+        "birth_date": "birth_date"
+      }
+    ]
+   
+  }
