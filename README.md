@@ -16,6 +16,16 @@ The script automates the process of sending messages on Messenger. It can be use
 
 This project is created for **educational purposes only**. It is intended to demonstrate the automation capabilities of Python for sending messages on Messenger. It should not be used for any ill intent.
 
+## 📦 Installation
+
+Before running the script, you need to install the required packages. You can do this by running the following commands in your terminal:
+
+```bash
+pip install selenium python-dotenv
+```
+
+This will install the Selenium and python-dotenv packages.
+
 ## 🚀 Usage
 
 1. Create an `.env` file and insert your account credentials.
