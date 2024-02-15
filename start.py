@@ -38,13 +38,14 @@ email_field.send_keys(email)
 password_field = delay.until(EC.presence_of_element_located((By.ID, "pass")))
 password_field.send_keys(password)
 password_field.submit()
+time.sleep(3)
 
 # Send the message
 for person in persons:
     id = person['id']
     name= person['name']
     driver.get("https://www.messenger.com/t/" + id)
-    time.sleep(1)
+    time.sleep(2)
     chat_box_css = "div[aria-describedby]"
     chat_box = delay.until(
         EC.visibility_of_element_located((By.CSS_SELECTOR, chat_box_css))
